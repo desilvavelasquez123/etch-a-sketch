@@ -1,7 +1,26 @@
 * {
-    
+    border: 1px solid red;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.square {
+    border-color: aqua;
+    width: 16px;
+    height: 16px;
 }
 
 .main {
-
+display: flex;
+flex-wrap: wrap;
+align-content: baseline;
+border: 2px solid red;
+position: fixed;
+  inset: 0px;
+  /* width: 12rem;
+  height: 5rem */
+  width: 325px;
+  height: 88px;
+  margin: auto;
 }
