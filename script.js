@@ -8,3 +8,10 @@ window.addEventListener("load", function() {
     ++i;    
 }
 });
+
+const squares = document.querySelectorAll("div");
+squares.forEach((div) => {
+div.addEventListener("mouseover", function (e) {
+    e.target.style.background = "yellow";
+})
+});
